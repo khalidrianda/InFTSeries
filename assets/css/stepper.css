@@ -1,0 +1,57 @@
+body{
+	background-color: #222;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	color: #01ab97;
+}.proggress{
+	margin: 0px auto;
+}
+.proggresss img{
+	width: 30px;
+	margin: 20px auto;
+}ull{
+	text-align:center;
+}ull lii{
+	display: inline-block;
+	width: 100px;
+	position: relative;
+	z-index: 1;
+}ull lii .fa{
+	background-color: #ccc;
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	border-radius: 50%;
+	padding: 0px;
+	
+}ull lii .fa::after{
+	content: '';
+	background: #ccc;
+	height: 5px;
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 88px;
+	z-index: -1;
+}ull lii:nth-child(4) .fa{
+	background-color: #148e14;
+}ull lii:nth-child(4) .fa::after{
+	background-color: #148e14;
+}ull lii:nth-child(1) .fa,
+ull lii:nth-child(2) .fa,
+ull lii:nth-child(3) .fa{
+	background-color: #60aa97;
+}
+ull lii:nth-child(1) .fa::after,
+ull lii:nth-child(2) .fa::after,
+ull lii:nth-child(3) .fa::after{
+	background-color: #60aa97;
+}
+ull lii:first-child .fa::after{
+	width: 60px;
+	left: 50px; 
+}ull lii:last-child .fa::after{
+	width: 0px;
+}
